@@ -1,3 +1,12 @@
+## [0.15.3](https://github.com/CesarBalzer/balzer-icon/compare/v0.15.2...v0.15.3) (2026-02-12)
+
+
+### Bug Fixes
+
+* adjusts publish ghpages ([5f012af](https://github.com/CesarBalzer/balzer-icon/commit/5f012af84071ba3c5865b8b57b4a2e749ebda48d))
+
+
+
 ## [0.15.2](https://github.com/CesarBalzer/balzer-icon/compare/v0.15.1...v0.15.2) (2026-02-12)
 
 
