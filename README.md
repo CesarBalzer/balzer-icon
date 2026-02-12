@@ -4,6 +4,6 @@
 
 ### Padrao de commit
 
-         feat: Mensagem
-         fix:  Mensagem
+         feat: Mensagem 
+         fix:  Mensagem 
          
