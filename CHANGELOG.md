@@ -1,3 +1,12 @@
+## [0.15.4](https://github.com/CesarBalzer/balzer-icon/compare/v0.15.3...v0.15.4) (2026-02-12)
+
+
+### Bug Fixes
+
+* build docs ([d508816](https://github.com/CesarBalzer/balzer-icon/commit/d5088163ce6edef4a659bf742e70180e987168e9))
+
+
+
 ## [0.15.3](https://github.com/CesarBalzer/balzer-icon/compare/v0.15.2...v0.15.3) (2026-02-12)
 
 
