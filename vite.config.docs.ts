@@ -4,7 +4,7 @@ import svgr from 'vite-plugin-svgr'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'https://cesarbalzer.github.io/balzer-icon',
+  base: 'balzer-icon',
   build: {
     outDir: 'docs'
   },
