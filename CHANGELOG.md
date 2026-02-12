@@ -1,3 +1,12 @@
+## [0.15.5](https://github.com/CesarBalzer/balzer-icon/compare/v0.15.4...v0.15.5) (2026-02-12)
+
+
+### Bug Fixes
+
+* adjusts gh pages ([1152ccf](https://github.com/CesarBalzer/balzer-icon/commit/1152ccf4f5f2781ee4d08132c21353b32d88ae80))
+
+
+
 ## [0.15.4](https://github.com/CesarBalzer/balzer-icon/compare/v0.15.3...v0.15.4) (2026-02-12)
 
 
