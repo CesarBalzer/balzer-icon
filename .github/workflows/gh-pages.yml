@@ -1,13 +1,20 @@
 name: Deploy Docs to GitHub Pages
 
 on:
+  push:
+    branches: [main]
+  workflow_dispatch:
   release:
     types: [published]
 
 permissions:
+  contents: read
   pages: write
   id-token: write
-  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -15,14 +22,14 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - name: Install deps
+      - name: Install
         run: yarn install --frozen-lockfile
 
       - name: Build docs
@@ -34,7 +41,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./docs
 
-      - name: Deploy Pages
+      - name: Deploy
         uses: actions/deploy-pages@v4
