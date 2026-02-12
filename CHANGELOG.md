@@ -1,3 +1,12 @@
+## [0.15.6](https://github.com/CesarBalzer/balzer-icon/compare/v0.15.5...v0.15.6) (2026-02-12)
+
+
+### Bug Fixes
+
+* adjusts publish npm ([4ec5f91](https://github.com/CesarBalzer/balzer-icon/commit/4ec5f910a8e30cbbaa822593fa1f116f85152cd0))
+
+
+
 ## [0.15.5](https://github.com/CesarBalzer/balzer-icon/compare/v0.15.4...v0.15.5) (2026-02-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * change homepage config ([302a1ae](https://github.com/CesarBalzer/balzer-icon/commit/302a1aed5d6fc8ecdcfc16b7a93b325679d3eaf9))
-
-
-
-## [0.15.1](https://github.com/CesarBalzer/balzer-icon/compare/8dd46993f4aaf560128330fa4cf7f21251e687b0...v0.15.1) (2026-02-12)
-
-
-### Bug Fixes
-
-* increase version ([8dd4699](https://github.com/CesarBalzer/balzer-icon/commit/8dd46993f4aaf560128330fa4cf7f21251e687b0))
 
 
 
