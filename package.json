@@ -2,7 +2,7 @@
   "name": "balzer-icon",
   "homepage": "https://cesarbalzer.github.io/balzer-icon/",
   "private": false,
-  "version": "0.15.1",
+  "version": "0.15.2",
   "type": "module",
   "files": [
     "dist"
