@@ -181,6 +181,7 @@ import PenSquare from "./pen-square.svg?react";
 import PencilOutline from "./pencil-outline.svg?react";
 import Phone from "./phone.svg?react";
 import Pix from "./pix.svg?react";
+import Play from "./play.svg?react";
 import PlusCircle from "./plus-circle.svg?react";
 import Plus from "./plus.svg?react";
 import PriceTagAlt from "./price-tag-alt.svg?react";
@@ -446,6 +447,7 @@ export default {
   'pencil-outline': PencilOutline,
   'phone': Phone,
   'pix': Pix,
+  'play': Play,
   'plus-circle': PlusCircle,
   'plus': Plus,
   'price-tag-alt': PriceTagAlt,
