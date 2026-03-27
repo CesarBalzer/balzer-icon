@@ -1,3 +1,12 @@
+# [0.16.0](https://github.com/CesarBalzer/balzer-icon/compare/v0.15.6...v0.16.0) (2026-03-27)
+
+
+### Features
+
+* add play ([e544649](https://github.com/CesarBalzer/balzer-icon/commit/e544649fb81d1f984fce959790c0f04040a15362))
+
+
+
 ## [0.15.6](https://github.com/CesarBalzer/balzer-icon/compare/v0.15.5...v0.15.6) (2026-02-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * adjusts publish ghpages ([5f012af](https://github.com/CesarBalzer/balzer-icon/commit/5f012af84071ba3c5865b8b57b4a2e749ebda48d))
-
-
-
-## [0.15.2](https://github.com/CesarBalzer/balzer-icon/compare/v0.15.1...v0.15.2) (2026-02-12)
-
-
-### Bug Fixes
-
-* change homepage config ([302a1ae](https://github.com/CesarBalzer/balzer-icon/commit/302a1aed5d6fc8ecdcfc16b7a93b325679d3eaf9))
 
 
 
