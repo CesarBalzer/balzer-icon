@@ -9,6 +9,8 @@ Biblioteca oficial de ícones React do ecossistema Balzer.
 
 Compatível com React 18+, SVG otimizado, tree-shakable, build em ESModule e UMD, com documentação automática via GitHub Pages.
 
+Os SVGs da biblioteca devem usar `currentColor` em `fill` e/ou `stroke` para responder corretamente à prop `color` do componente `Icon`.
+
 Homepage:
 https://cesarbalzer.github.io/balzer-icon/
 
@@ -51,10 +53,9 @@ export default function Example() {
 balzer-icon/
 ├── lib/                # Componentes principais
 │   └── Icon.tsx
-├── public/
-│   └── icons/         # SVGs base
+├── lib/svg/           # SVGs base e índice gerado
 ├── utils/
-│   └── generateNames  # Script de geração automática
+│   └── generateNames.js  # Script de geração automática
 ├── docs/              # Documentação (GitHub Pages)
 ├── dist/              # Build publicado no npm
 ├── vite.config.ts
@@ -71,14 +72,28 @@ balzer-icon/
 Coloque o arquivo em:
 
 ```
-public/icons/
+lib/svg/
 ```
 
 Exemplo:
 
 ```
-public/icons/user.svg
+lib/svg/user.svg
 ```
+
+Importante:
+
+```svg
+<path fill="currentColor" />
+```
+
+ou
+
+```svg
+<path stroke="currentColor" />
+```
+
+Evite cores fixas como `fill="#000"` ou `stroke="#000"`, porque isso impede que a prop `color` do componente altere a cor do ícone.
 
 ---
 
@@ -200,7 +215,7 @@ git commit -m "feat!: change icon API"
 
 ```bash
 # adicionar ícone
-public/icons/new-icon.svg
+lib/svg/new-icon.svg
 
 # gerar nomes
 yarn names
